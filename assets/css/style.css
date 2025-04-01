@@ -1,21 +1,40 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  background: #f9f9f9;
+  background: #fff4f8;
   color: #333;
 }
 
 .hero {
-  background: #1d2e3d;
-  color: white;
+  background: #f7d9e3;
+  color: #3d3d3d;
   text-align: center;
   padding: 2rem;
+  border-bottom: 3px solid #ffd3e0;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.bio {
+  max-width: 700px;
+  margin: 1rem auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #5e5e5e;
 }
 
 .links a {
-  color: #e6e69a;
+  color: #b85c8c;
   text-decoration: none;
   margin: 0 10px;
+  font-weight: bold;
+}
+
+.links a:hover {
+  text-decoration: underline;
 }
 
 section {
@@ -25,23 +44,30 @@ section {
 }
 
 h2 {
-  color: #1d2e3d;
-  border-bottom: 2px solid #ccc;
+  color: #b85c8c;
+  border-bottom: 2px solid #f2b6cc;
   padding-bottom: 0.5rem;
+  margin-top: 2rem;
 }
 
-.project {
+.project, .experience {
   background: #fff;
-  border: 1px solid #ddd;
-  padding: 1rem;
+  border: 1px solid #f2b6cc;
+  padding: 1.5rem;
   margin-bottom: 2rem;
-  border-radius: 10px;
-  box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  border-radius: 12px;
+  box-shadow: 0 2px 10px rgba(248, 206, 219, 0.4);
+}
+
+.project img {
+  margin-top: 1rem;
+  border-radius: 8px;
 }
 
 footer {
   text-align: center;
   padding: 1rem;
-  background: #1d2e3d;
-  color: white;
+  background: #f7d9e3;
+  color: #5e5e5e;
+  font-size: 0.9rem;
 }
